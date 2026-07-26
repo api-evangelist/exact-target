@@ -1,8 +1,25 @@
 aid: exact-target
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/exact-target.png
 name: Exact Target
-description: Exact Target is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'ExactTarget was a digital marketing and email-marketing automation SaaS company founded in
+  2000 in Indianapolis, Indiana. It built the Fuel developer platform and Interactive Marketing Hub for
+  email, mobile, and social campaign automation, went public on the NYSE (ticker ET) in March 2012, and
+  was acquired by Salesforce in December 2013 for approximately 2.5 billion dollars. ExactTarget became
+  the foundation of Salesforce Marketing Cloud; the exacttarget.com domain now redirects to the Salesforce
+  Marketing Cloud email-marketing product and the former developer.exacttarget.com Fuel/Code@ API platform
+  (REST and SOAP APIs) has been retired and folded into the Salesforce Marketing Cloud developer surface.
+  This profile is retained in the API Evangelist network as a historical/acquired-company record.'
 url: https://raw.githubusercontent.com/api-evangelist/exact-target/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Email Marketing
+- Marketing Automation
+- Digital Marketing
+- SaaS
+- Acquired
+- Salesforce Marketing Cloud
+x-status: acquired
+x-acquired-by: salesforce
+x-successor: salesforce-marketing-cloud
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/exact-target-domain-security.yml
 - type: Website
   url: http://www.exacttarget.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
