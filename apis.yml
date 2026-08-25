@@ -12,14 +12,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/exact-target.png
 name: Exact Target
-description: 'ExactTarget was a digital marketing and email-marketing automation SaaS company founded in
-  2000 in Indianapolis, Indiana. It built the Fuel developer platform and Interactive Marketing Hub for
-  email, mobile, and social campaign automation, went public on the NYSE (ticker ET) in March 2012, and
-  was acquired by Salesforce in December 2013 for approximately 2.5 billion dollars. ExactTarget became
-  the foundation of Salesforce Marketing Cloud; the exacttarget.com domain now redirects to the Salesforce
-  Marketing Cloud email-marketing product and the former developer.exacttarget.com Fuel/Code@ API platform
-  (REST and SOAP APIs) has been retired and folded into the Salesforce Marketing Cloud developer surface.
-  This profile is retained in the API Evangelist network as a historical/acquired-company record.'
+description: ExactTarget was a digital marketing and email-marketing automation SaaS company founded in 2000 in
+  Indianapolis, Indiana. It built the Fuel developer platform and Interactive Marketing Hub for email, mobile, and
+  social campaign automation, went public on the NYSE (ticker ET) in March 2012, and was acquired by Salesforce
+  in December 2013 for approximately 2.5 billion dollars. ExactTarget became the foundation of Salesforce Marketing
+  Cloud; the exacttarget.com domain now redirects to the Salesforce Marketing Cloud email-marketing product and
+  the former developer.exacttarget.com Fuel/Code@ API platform (REST and SOAP APIs) has been retired and folded
+  into the Salesforce Marketing Cloud developer surface. This profile is retained in the API Evangelist network
+  as a historical/acquired-company record.
 url: https://raw.githubusercontent.com/api-evangelist/exact-target/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -29,7 +29,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-08-21'
 tags:
 - Company
 - Email Marketing
@@ -56,6 +56,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/salesforce/
+  name: Salesforce
+  x-relationship: acquisition
+  x-generated-by: salesforce-family:2026-08-21
+  x-acquired: 2013
 - type: DomainSecurity
   url: security/exact-target-domain-security.yml
 - type: Website
@@ -65,3 +71,6 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-parent: salesforce
+x-relationship: acquisition
+x-acquired: 2013
