@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'http://www.exacttarget.com/', status: 301, note: 'declared website redirects to https://www.salesforce.com/marketing/engagement/?d=www.exacttarget.com%2F&internal=true&bc=DB — a different registrable domain (exacttarget.com -> salesforce.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/exact-target.png
 name: Exact Target
 description: ExactTarget was a digital marketing and email-marketing automation SaaS company founded in 2000 in
