@@ -64,6 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Exact Target is a company surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: insight-partners — http://www.exacttarget.com/
+ExactTarget was a digital marketing and email-marketing automation SaaS company founded in 2000 in Indianapolis, Indiana. It built the Fuel developer platform and Interactive Marketing Hub for email, mobile, and social campaign automation, went public on the NYSE (ticker ET) in March 2012, and was acquired by Salesforce in December 2013 for approximately 2.5 billion dollars. ExactTarget became the foundation of Salesforce Marketing Cloud; the exacttarget.com domain now redirects to the Salesforce Marketing Cloud email-marketing product and the former developer.exacttarget.com Fuel/Code@ API platform (REST and SOAP APIs) has been retired and folded into the Salesforce Marketing Cloud developer surface. This profile is retained in the API Evangelist network as a historical/acquired-company record.
+
+**Areas:** Company · Email Marketing · Marketing Automation · Digital Marketing · Software-as-a-Service · Acquired · Salesforce Marketing Cloud
+
+## Exact Target on APIs.io (historical record)
+
+Everything profiled for Exact Target is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/exact-target/](https://apis.io/providers/exact-target/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Exact Target Domain Security](https://apis.io/security/exact-target/exact-target-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](http://www.exacttarget.com/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Exact Target: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/exact-target/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
